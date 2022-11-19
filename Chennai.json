@@ -1,5 +1,5 @@
 {
-
+  "chennai": {
     "hourly": [
       {
         "DateTime": "2022-10-28T21:00:00+05:30",
@@ -1833,10 +1833,5 @@
         "Link": "http://www.accuweather.com/en/in/chennai/206671/daily-weather-forecast/206671?day=5&unit=c&lang=en-us"
       }
     ]
-
-
-    
   }
-
-
-
+}
