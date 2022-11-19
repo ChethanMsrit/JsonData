@@ -1,1277 +1,329 @@
-"5-day": [
-    {
-      "Date": "2022-10-28T07:00:00+05:30",
-      "EpochDate": 1666920600,
-      "Sun": {
-        "Rise": "2022-10-28T06:12:00+05:30",
-        "EpochRise": 1666917720,
-        "Set": "2022-10-28T17:55:00+05:30",
-        "EpochSet": 1666959900
-      },
-      "Moon": {
-        "Rise": "2022-10-28T08:49:00+05:30",
-        "EpochRise": 1666927140,
-        "Set": "2022-10-28T20:26:00+05:30",
-        "EpochSet": 1666968960,
-        "Phase": "WaxingCrescent",
-        "Age": 3
-      },
-      "Temperature": {
-        "Minimum": {
-          "Value": 18.7,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Maximum": {
-          "Value": 28.2,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "RealFeelTemperature": {
-        "Minimum": {
-          "Value": 18.1,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 29.1,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Very Warm"
-        }
-      },
-      "RealFeelTemperatureShade": {
-        "Minimum": {
-          "Value": 18.1,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 26.8,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Very Warm"
-        }
-      },
-      "HoursOfSun": 7.1,
-      "DegreeDaySummary": {
-        "Heating": {
-          "Value": 0.0,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Cooling": {
-          "Value": 5.0,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "AirAndPollen": [
-        {
-          "Name": "AirQuality",
-          "Value": 0,
-          "Category": "Good",
-          "CategoryValue": 1,
-          "Type": "Ozone"
-        },
-        {
-          "Name": "Grass",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Mold",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Ragweed",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Tree",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "UVIndex",
-          "Value": 7,
-          "Category": "High",
-          "CategoryValue": 3
-        }
-      ],
-      "Day": {
-        "Icon": 3,
-        "IconPhrase": "Partly sunny",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Partly sunny and delightful",
-        "LongPhrase": "Partly sunny and delightful",
-        "PrecipitationProbability": 25,
-        "ThunderstormProbability": 1,
-        "RainProbability": 25,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 13.0,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 58,
-            "Localized": "ENE",
-            "English": "ENE"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 35.2,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 50,
-            "Localized": "NE",
-            "English": "NE"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 42,
-        "Evapotranspiration": {
-          "Value": 3.6,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 4576.0,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Night": {
-        "Icon": 36,
-        "IconPhrase": "Intermittent clouds",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Areas of low clouds",
-        "LongPhrase": "Partly cloudy this evening followed by areas of low clouds",
-        "PrecipitationProbability": 18,
-        "ThunderstormProbability": 1,
-        "RainProbability": 18,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 11.1,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 64,
-            "Localized": "ENE",
-            "English": "ENE"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 24.1,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 76,
-            "Localized": "ENE",
-            "English": "ENE"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 64,
-        "Evapotranspiration": {
-          "Value": 0.3,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 10.2,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Sources": ["AccuWeather"],
-      "MobileLink": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=1&unit=c&lang=en-us",
-      "Link": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=1&unit=c&lang=en-us"
-    },
-    {
-      "Date": "2022-10-29T07:00:00+05:30",
-      "EpochDate": 1667007000,
-      "Sun": {
-        "Rise": "2022-10-29T06:12:00+05:30",
-        "EpochRise": 1667004120,
-        "Set": "2022-10-29T17:54:00+05:30",
-        "EpochSet": 1667046240
-      },
-      "Moon": {
-        "Rise": "2022-10-29T09:54:00+05:30",
-        "EpochRise": 1667017440,
-        "Set": "2022-10-29T21:27:00+05:30",
-        "EpochSet": 1667059020,
-        "Phase": "WaxingCrescent",
-        "Age": 4
-      },
-      "Temperature": {
-        "Minimum": {
-          "Value": 18.9,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Maximum": {
-          "Value": 27.1,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "RealFeelTemperature": {
-        "Minimum": {
-          "Value": 18.2,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 28.6,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Very Warm"
-        }
-      },
-      "RealFeelTemperatureShade": {
-        "Minimum": {
-          "Value": 18.2,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 26.1,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        }
-      },
-      "HoursOfSun": 2.5,
-      "DegreeDaySummary": {
-        "Heating": {
-          "Value": 0.0,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Cooling": {
-          "Value": 5.0,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "AirAndPollen": [
-        {
-          "Name": "AirQuality",
-          "Value": 0,
-          "Category": "Good",
-          "CategoryValue": 1,
-          "Type": "Ozone"
-        },
-        {
-          "Name": "Grass",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Mold",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Ragweed",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Tree",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "UVIndex",
-          "Value": 5,
-          "Category": "Moderate",
-          "CategoryValue": 2
-        }
-      ],
-      "Day": {
-        "Icon": 6,
-        "IconPhrase": "Mostly cloudy",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Mostly cloudy",
-        "LongPhrase": "Mostly cloudy",
-        "PrecipitationProbability": 25,
-        "ThunderstormProbability": 6,
-        "RainProbability": 25,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 13.0,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 87,
-            "Localized": "E",
-            "English": "E"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 35.2,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 95,
-            "Localized": "E",
-            "English": "E"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 85,
-        "Evapotranspiration": {
-          "Value": 2.5,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 2797.6,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Night": {
-        "Icon": 38,
-        "IconPhrase": "Mostly cloudy",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Clearing",
-        "LongPhrase": "Cloudy in the evening, then partly cloudy late",
-        "PrecipitationProbability": 25,
-        "ThunderstormProbability": 6,
-        "RainProbability": 25,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 9.3,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 85,
-            "Localized": "E",
-            "English": "E"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 22.2,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 83,
-            "Localized": "E",
-            "English": "E"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 79,
-        "Evapotranspiration": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 20.3,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Sources": ["AccuWeather"],
-      "MobileLink": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=2&unit=c&lang=en-us",
-      "Link": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=2&unit=c&lang=en-us"
-    },
-    {
-      "Date": "2022-10-30T07:00:00+05:30",
-      "EpochDate": 1667093400,
-      "Sun": {
-        "Rise": "2022-10-30T06:13:00+05:30",
-        "EpochRise": 1667090580,
-        "Set": "2022-10-30T17:54:00+05:30",
-        "EpochSet": 1667132640
-      },
-      "Moon": {
-        "Rise": "2022-10-30T10:57:00+05:30",
-        "EpochRise": 1667107620,
-        "Set": "2022-10-30T22:30:00+05:30",
-        "EpochSet": 1667149200,
-        "Phase": "WaxingCrescent",
-        "Age": 5
-      },
-      "Temperature": {
-        "Minimum": {
-          "Value": 18.4,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Maximum": {
-          "Value": 27.7,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "RealFeelTemperature": {
-        "Minimum": {
-          "Value": 17.4,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 28.4,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Very Warm"
-        }
-      },
-      "RealFeelTemperatureShade": {
-        "Minimum": {
-          "Value": 17.4,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 26.4,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        }
-      },
-      "HoursOfSun": 6.0,
-      "DegreeDaySummary": {
-        "Heating": {
-          "Value": 0.0,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Cooling": {
-          "Value": 5.0,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "AirAndPollen": [
-        {
-          "Name": "AirQuality",
-          "Value": 0,
-          "Category": "Good",
-          "CategoryValue": 1,
-          "Type": "Ozone"
-        },
-        {
-          "Name": "Grass",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Mold",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Ragweed",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Tree",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "UVIndex",
-          "Value": 7,
-          "Category": "High",
-          "CategoryValue": 3
-        }
-      ],
-      "Day": {
-        "Icon": 3,
-        "IconPhrase": "Partly sunny",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Partly sunny",
-        "LongPhrase": "Partly sunny",
-        "PrecipitationProbability": 25,
-        "ThunderstormProbability": 1,
-        "RainProbability": 25,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 13.0,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 64,
-            "Localized": "ENE",
-            "English": "ENE"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 35.2,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 61,
-            "Localized": "ENE",
-            "English": "ENE"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 47,
-        "Evapotranspiration": {
-          "Value": 3.3,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 4046.8,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Night": {
-        "Icon": 36,
-        "IconPhrase": "Intermittent clouds",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Partly cloudy",
-        "LongPhrase": "Partly cloudy",
-        "PrecipitationProbability": 19,
-        "ThunderstormProbability": 1,
-        "RainProbability": 19,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 9.3,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 57,
-            "Localized": "ENE",
-            "English": "ENE"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 22.2,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 50,
-            "Localized": "NE",
-            "English": "NE"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 60,
-        "Evapotranspiration": {
-          "Value": 0.3,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 10.4,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Sources": ["AccuWeather"],
-      "MobileLink": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=3&unit=c&lang=en-us",
-      "Link": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=3&unit=c&lang=en-us"
-    },
-    {
-      "Date": "2022-10-31T07:00:00+05:30",
-      "EpochDate": 1667179800,
-      "Sun": {
-        "Rise": "2022-10-31T06:13:00+05:30",
-        "EpochRise": 1667176980,
-        "Set": "2022-10-31T17:54:00+05:30",
-        "EpochSet": 1667219040
-      },
-      "Moon": {
-        "Rise": "2022-10-31T11:58:00+05:30",
-        "EpochRise": 1667197680,
-        "Set": "2022-10-31T23:34:00+05:30",
-        "EpochSet": 1667239440,
-        "Phase": "WaxingCrescent",
-        "Age": 6
-      },
-      "Temperature": {
-        "Minimum": {
-          "Value": 18.8,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Maximum": {
-          "Value": 28.5,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "RealFeelTemperature": {
-        "Minimum": {
-          "Value": 17.4,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 28.2,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Very Warm"
-        }
-      },
-      "RealFeelTemperatureShade": {
-        "Minimum": {
-          "Value": 17.4,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 26.9,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Very Warm"
-        }
-      },
-      "HoursOfSun": 0.7,
-      "DegreeDaySummary": {
-        "Heating": {
-          "Value": 0.0,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Cooling": {
-          "Value": 6.0,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "AirAndPollen": [
-        {
-          "Name": "AirQuality",
-          "Value": 0,
-          "Category": "Good",
-          "CategoryValue": 1,
-          "Type": "Ozone"
-        },
-        {
-          "Name": "Grass",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Mold",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Ragweed",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Tree",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "UVIndex",
-          "Value": 4,
-          "Category": "Moderate",
-          "CategoryValue": 2
-        }
-      ],
-      "Day": {
-        "Icon": 4,
-        "IconPhrase": "Intermittent clouds",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Sun through high clouds",
-        "LongPhrase": "Sun through high clouds",
-        "PrecipitationProbability": 9,
-        "ThunderstormProbability": 0,
-        "RainProbability": 9,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 13.0,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 29,
-            "Localized": "NNE",
-            "English": "NNE"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 29.6,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 31,
-            "Localized": "NNE",
-            "English": "NNE"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 100,
-        "Evapotranspiration": {
-          "Value": 2.5,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 2073.7,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Night": {
-        "Icon": 35,
-        "IconPhrase": "Partly cloudy",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Partly cloudy",
-        "LongPhrase": "Partly cloudy",
-        "PrecipitationProbability": 13,
-        "ThunderstormProbability": 0,
-        "RainProbability": 13,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 11.1,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 31,
-            "Localized": "NNE",
-            "English": "NNE"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 18.5,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 29,
-            "Localized": "NNE",
-            "English": "NNE"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 100,
-        "Evapotranspiration": {
-          "Value": 0.5,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 10.2,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Sources": ["AccuWeather"],
-      "MobileLink": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=4&unit=c&lang=en-us",
-      "Link": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=4&unit=c&lang=en-us"
-    },
-    {
-      "Date": "2022-11-01T07:00:00+05:30",
-      "EpochDate": 1667266200,
-      "Sun": {
-        "Rise": "2022-11-01T06:13:00+05:30",
-        "EpochRise": 1667263380,
-        "Set": "2022-11-01T17:53:00+05:30",
-        "EpochSet": 1667305380
-      },
-      "Moon": {
-        "Rise": "2022-11-01T12:53:00+05:30",
-        "EpochRise": 1667287380,
-        "Set": "2022-11-02T00:36:00+05:30",
-        "EpochSet": 1667329560,
-        "Phase": "First",
-        "Age": 7
-      },
-      "Temperature": {
-        "Minimum": {
-          "Value": 19.7,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Maximum": {
-          "Value": 27.5,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "RealFeelTemperature": {
-        "Minimum": {
-          "Value": 19.1,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 28.1,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Very Warm"
-        }
-      },
-      "RealFeelTemperatureShade": {
-        "Minimum": {
-          "Value": 19.1,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        },
-        "Maximum": {
-          "Value": 26.4,
-          "Unit": "C",
-          "UnitType": 17,
-          "Phrase": "Pleasant"
-        }
-      },
-      "HoursOfSun": 1.5,
-      "DegreeDaySummary": {
-        "Heating": {
-          "Value": 0.0,
-          "Unit": "C",
-          "UnitType": 17
-        },
-        "Cooling": {
-          "Value": 6.0,
-          "Unit": "C",
-          "UnitType": 17
-        }
-      },
-      "AirAndPollen": [
-        {
-          "Name": "AirQuality",
-          "Value": 0,
-          "Category": "Good",
-          "CategoryValue": 1,
-          "Type": "Ozone"
-        },
-        {
-          "Name": "Grass",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Mold",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Ragweed",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "Tree",
-          "Value": 0,
-          "Category": "Low",
-          "CategoryValue": 1
-        },
-        {
-          "Name": "UVIndex",
-          "Value": 5,
-          "Category": "Moderate",
-          "CategoryValue": 2
-        }
-      ],
-      "Day": {
-        "Icon": 6,
-        "IconPhrase": "Mostly cloudy",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Mostly cloudy",
-        "LongPhrase": "Mostly cloudy",
-        "PrecipitationProbability": 25,
-        "ThunderstormProbability": 6,
-        "RainProbability": 25,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 11.1,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 17,
-            "Localized": "NNE",
-            "English": "NNE"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 29.6,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 9,
-            "Localized": "N",
-            "English": "N"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 92,
-        "Evapotranspiration": {
-          "Value": 2.5,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 2402.6,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Night": {
-        "Icon": 38,
-        "IconPhrase": "Mostly cloudy",
-        "HasPrecipitation": false,
-        "ShortPhrase": "Partly to mostly cloudy",
-        "LongPhrase": "Partly to mostly cloudy",
-        "PrecipitationProbability": 25,
-        "ThunderstormProbability": 6,
-        "RainProbability": 25,
-        "SnowProbability": 0,
-        "IceProbability": 0,
-        "Wind": {
-          "Speed": {
-            "Value": 9.3,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 11,
-            "Localized": "N",
-            "English": "N"
-          }
-        },
-        "WindGust": {
-          "Speed": {
-            "Value": 24.1,
-            "Unit": "km/h",
-            "UnitType": 7
-          },
-          "Direction": {
-            "Degrees": 356,
-            "Localized": "N",
-            "English": "N"
-          }
-        },
-        "TotalLiquid": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Rain": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "Snow": {
-          "Value": 0.0,
-          "Unit": "cm",
-          "UnitType": 4
-        },
-        "Ice": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "HoursOfPrecipitation": 0.0,
-        "HoursOfRain": 0.0,
-        "HoursOfSnow": 0.0,
-        "HoursOfIce": 0.0,
-        "CloudCover": 92,
-        "Evapotranspiration": {
-          "Value": 0.0,
-          "Unit": "mm",
-          "UnitType": 3
-        },
-        "SolarIrradiance": {
-          "Value": 16.9,
-          "Unit": "W/m²",
-          "UnitType": 33
-        }
-      },
-      "Sources": ["AccuWeather"],
-      "MobileLink": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=5&unit=c&lang=en-us",
-      "Link": "http://www.accuweather.com/en/in/bengaluru/1-204108_1_al/daily-weather-forecast/1-204108_1_al?day=5&unit=c&lang=en-us"
-    }
-  ]
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">=
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+
+
+</head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+<script>
+
+$(document).ready(function () {
+  
+  // FETCHING DATA FROM JSON FILE
+  $.getJSON("gfgdetails.json", 
+          function (data) {
+      var student = '';
+
+      // ITERATING THROUGH OBJECTS
+      $.each(data, function (key, value) {
+
+          //CONSTRUCTION OF ROWS HAVING
+          // DATA FROM JSON OBJECT
+          student += '<tr>';
+          student += '<td>' + 
+              value.GFGUserName + '</td>';
+
+          student += '<td>' + 
+              value.NoOfProblems + '</td>';
+
+          student += '<td>' + 
+              value.TotalScore + '</td>';
+
+          student += '<td>' + 
+              value.Articles + '</td>';
+
+          student += '</tr>';
+      });
+        
+      //INSERTING ROWS INTO TABLE 
+      $('#table').append(student);
+  });
+});
+
+</script>
+
+<body>
+    <nav class="navbar navbar-expand-sm ">
+        <div class="container">
+            <a href="/" class="navbar-brand ">
+                <img src="images/logo1.PNG" style="height:70px;width:280px"> &nbsp;
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <i class="fas fa-bars"></i>
+            </button>
+
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                   <b>
+                    <li class="nav-item">
+                        <a href="" class="nav-link active" style="font-size: 15px;">
+                            Home
+                        </a>
+                    </li>
+                </b>
+                <b>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"style="font-size: 15px;">
+                            Contact Us
+                        </a>
+                    </li>
+                </b>
+                </ul>
+            </div>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li>
+                        <a href="#">
+                            <img class="icon" src="images/linkedin.PNG" >
+                        </a>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>
+                        <a href="#">
+                            <img class="icon" src="images/twitter.PNG">
+                        </a>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>
+                        <a href="#">
+                            <img class="icon" src="images/insta.PNG">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5" >
+        <div class="row"style="margin-top: 40px;">
+            <div class="col-sm-7">
+                <span class="welcome">Welcome to the Weather Predictor ! </span>
+                <p class="mt-4" style="font-size: 15px;">
+                    You're in Chikmagalur ! <br><br>
+                    fsefnobeso nfoen fowendf owiend foiwend ioend ioennifew <br> fseoiuendf oseifneoisfneoifnoeisnf oseinfoiesfneionf ieonfoei!! <br>
+                </p><br>
+            </div>
+            <div class="col-sm-5">
+                <img src="images/image1.PNG" style="height:150px; width:350px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="btnStyle">
+                <button type="button" class="btn btn-danger" style="height: 40px;" data-bs-toggle="modal" data-bs-target="#forecast">
+                    <span class="btnText">CHECK FORECAST</span>
+                </button>&nbsp;&nbsp;&nbsp;
+                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#change-loc">
+                    <span class="btnfont" style="color: black;">Change location</span>
+                </button>
+
+                <!-- Check forecast modal -->
+                <div class="modal fade" id="forecast" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="forecast" aria-hidden="true" >
+                    <div class="modal-dialog">
+                      <div class="modal-content" style="background-color: #d7e8f1;">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="forecast" style="font-size: 20px; font-weight: bold;">
+                                <i class="fa fa-map-marker " aria-hidden="true"></i>  Bengaluru 24 C
+                            </h5> <br>
+                            
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <label>High: 28 C</label><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b><label>Low: 24 C</label>
+                                
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">CHANGE</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+                <!-- Check forecast-5 modal -->
+                <div class="modal fade" id="forecast-5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="forecast-5" aria-hidden="true" >
+                    <div class="modal-dialog">
+                      <div class="modal-content" style="background-color: #d7e8f1;">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="forecast-5" style="font-size: 20px; font-weight: bold;">
+                                <i class="fa fa-map-marker " aria-hidden="true"></i>  Bengaluru 24 C
+                            </h5> <br>
+                            
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <label>High: 28 C</label><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b><label>Low: 24 C</label>
+                                
+                            </form>
+                        </div>
+                        <div class="row" style="background-color: #4d8eb1; margin-left: 10px; margin-right: 10px; border-radius: 5px;">
+                            <div class="col-md-2">ejdksejdk</div>
+                            <div class="col-md-2">ejdksejdk</div>
+                            <div class="col-md-2">ejdksejdk</div>
+                            <div class="col-md-2">ejdksejdk</div>
+                            <div class="col-md-2">ejdksejdk</div>
+
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- Change location modal -->
+                <div class="modal fade" id="change-loc" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="change-loc" aria-hidden="true" >
+                    <div class="modal-dialog">
+                      <div class="modal-content" style="background-color: #d7e8f1;">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="change-loc" style="font-size: 20px; font-weight: bold;">Change the location</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                
+                                <label style="font-size: 15px; font-weight:10; padding-left: 20px; padding-right: 20px; font-style: inherit;">Please Select the location for you've to check the weather condition!</label>
+                                <div class="form-group">
+                                    <label for="dest">Destination</label>
+                                    
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 40%; padding: 10px 10px 10px 10px ; font-size: 13px; color: black;">
+                                      Select Your Destination
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+                                      <a class="dropdown-item" href="#">Bangalore</a>
+                                      <a class="dropdown-item" href="#">Chennai</a>
+                                      <a class="dropdown-item" href="#">Delhi</a>
+                                      <a class="dropdown-item" href="#">Hyderabad</a>
+                                      <a class="dropdown-item" href="#">Mumbai</a>
+                                    </div>
+                                </div>
+                
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">CHANGE</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="mt-4 auto-layout">
+            <span class="pred"> How do we get the data and prediction?</span>
+            <br>
+            <span style="font-size: 18px;">
+                Lorem epsum fbsdifcbij fkjebfkjebfkejbfewkjbfwkejbfwkefefb wef wef efnwekjfbkewjfb wkje febf weubfwef wiuefb
+                ewfu webfuwe bfewufb efb ebf uewbfiuwefbwefweiuf wueibf iuwbefiu efewiufbwiuefbi euwbiuebfe bfe fejsdefsjnekdf
+                ksjdnf kjsdnfkjesdnf kjsekdfjeskfjc fksdjfcekejsdfjkes efjebsf beskdb efkjebf kjbejk fbwekjsf bkewb</span>
+            <div class="mt-4">
+                <button type="button" class="btn btn-outline-secondary"data-bs-toggle="modal" data-bs-target="#forecast-5">
+                    <span style="color: black; font-size: 15px;">5- Day forecast</span>
+                </button>
+
+                
+            </div><br><br>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/image2.PNG" style="height:200px;width:250px">
+            </div>
+            <div class="col-sm-8 text">
+                <p style="font-size: 15px;">
+                    Lorem epsum fbsdifcbij fkjebfkjebfkejbfewkjbfwkejbfwkefefb wef wef efnwekjfbkewjfb wkje febf weubfwef wiuefb ewfu webfuwe bfewufb efb ebf uewbfiuwefbwefweiuf wueibf iuwbefiu efewiufbwiuefbi euwbiuebfe bfe fejsdefsjnekdf ksjdnf kjsdnfkjesdnf kjsekdfjeskfjc fksdjfcekejsdfjkes efjebsf beskdb efkjebf kjbejk fbwekjsf bkewb
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+    <footer class="text-center text-lg-start  text-white">
+
+        <section class="">
+            <div class="container text-center text-md-start">
+              
+                <div class="row mt-5">
+                 
+                    <div class="col-sm-3 mx-auto mb-4 mt-5">
+                 
+                        <h6 class="fw-bold mb-2">
+                            <img src="images/logo2.PNG" style="height: 70px; width:170px;">
+                        </h6>
+                        <p>
+                            cosibncno eincoiwencoiewncoew inwdw slkxc malsx Ikdclw dlwd flke dflwkef kleflkew flwkeflek fike fefkelflefleflekwflke flek fkl e
+                         </p>
+                        <button type="button" class="btn btn mx-2 ">
+                            <span class="btn" style="background-color: rgb(224, 60, 87); color: white; width: 200px; margin-left: -50px;">Check Forecast <i class='fas fa-arrow-right'></i>
+                            </span>
+                        </button>
+                    </div>
+                    
+                    <div class="col-sm-4 mx-auto mb-3 mt-5">
+                       
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            GET IN TOUCH
+                        </h6>
+                        <span>
+                            <i class="fa fa-map-marker"></i> &nbsp; llesfnee cnu efoin eoifn oewifnewo inf sdc csdcneno ie wolwemfwokm fwe w ecen cloenwo
+                            we - 355233
+                            <br>
+                            <i class="fa fa-envelope"></i> &nbsp;cisubdcusb@gmail.com</span>
+                        <br>
+                        <br>
+                        <span class="mt-3">
+                            <b>FOLLOW US</b><br>
+                                <a href="#">
+                                    <img class="icon" src="images/twit.PNG">
+                                </a>
+                       
+                                <a href="#">
+                                    <img class="icon" src="images/fb.PNG">
+                                </a>
+                            
+                                <a href="#">
+                                    <img class="icon" src="images/ln.PNG">
+                                </a><br>
+                        </span>
+                    </div>
+                   
+                    <div class="col-md-5 col-lg-3 mb-md-0 mb-4 mt-5 col-xl-3  ">
+                        
+                        <h6 class="text-uppercase fw-bold mb-4">QUICK LINKS</h6>
+                        <p>
+                            <a href="#">Home</a>
+                        </p>
+
+                        <p>
+                            <a href="#"> Contact US</a>
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+        
+        <hr class="p-2 border-top">
+        <label>Copyright© 2023. Weather prediction</label>
+
+    </footer>
+    
+</body>
+
+</html>
